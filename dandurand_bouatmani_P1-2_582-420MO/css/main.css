@@ -1,0 +1,58 @@
+/*----- Styles Généraux -----*/
+
+@font-face {
+    font-family: kanit;
+    src: url(/font/Kanit/Kanit-Regular.ttf);
+  }
+
+@font-face {
+    font-family: lalezar;
+    src: url(/font/Lalezar/Lalezar-Regular.ttf);
+}
+
+:root {
+    --rose: #D1D2F9;
+    --beige: #C9CAD9;
+    --mauve: #A3BCF9;
+    --gris: #7C7C7C;
+    --bleu: #084667;
+    --blanc: white;
+}
+
+h1{ 
+    font-size: 70px; 
+    font-weight: 900; 
+    color: var(--bleu); 
+    }
+
+h2{ 
+    font-size: 60px; 
+    font-family: lalezar;
+    color: var(--bleu); 
+}
+
+h3{ 
+    font-size: 35px; 
+    font-family: kanit;
+    color: var(--blanc); 
+    }
+
+h4{ 
+    font-size: 28px; 
+    font-family: kanit;
+    color: var(--bleu); 
+}
+
+h5{ 
+    font-size: 24px; 
+    font-family: kanit;
+    color: var(--bleu); 
+    }
+
+h6{ 
+    font-size: 20px; 
+    font-family: kanit;
+    color: var(--bleu); 
+}
+
+/*----- Section Hero -----*/

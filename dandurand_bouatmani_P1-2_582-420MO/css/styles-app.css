@@ -1,0 +1,22 @@
+/*----- Styles Généraux -----*/
+
+@font-face {
+    font-family: kanit;
+    src: url(/font/Kanit/Kanit-Regular.ttf);
+  }
+
+@font-face {
+    font-family: lalezar;
+    src: url(/font/Lalezar/Lalezar-Regular.ttf);
+}
+
+:root {
+    --rose: #D1D2F9;
+    --beige: #C9CAD9;
+    --mauve: #A3BCF9;
+    --gris: #7C7C7C;
+    --bleu: #084667;
+    --blanc: white;
+}
+
+/*----- Section Hero -----*/
