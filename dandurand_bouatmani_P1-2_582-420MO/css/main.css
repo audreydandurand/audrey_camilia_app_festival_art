@@ -56,3 +56,13 @@ h6{
 }
 
 /*----- Section Hero -----*/
+
+nav{
+    background-color: var(--mauve);
+    width: 100vw;
+}
+
+main{
+    height: 120%;
+    overflow-y: scroll;
+}
