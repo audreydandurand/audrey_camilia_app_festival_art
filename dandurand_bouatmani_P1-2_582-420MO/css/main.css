@@ -55,6 +55,13 @@ h6{
     color: var(--bleu); 
 }
 
+footer{
+    background-color: var(--bleu);
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
 /*----- Section Hero -----*/
 
 nav{
@@ -66,3 +73,4 @@ main{
     height: 120%;
     overflow-y: scroll;
 }
+
