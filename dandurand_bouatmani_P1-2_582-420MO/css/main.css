@@ -56,7 +56,8 @@ h6{
 }
 
 footer{
-    background-color: var(--bleu);
+    background-color: var(--beige);
+    color: var(--bleu);
 }
 
 /*----- Section Hero -----*/
@@ -71,3 +72,11 @@ main{
     overflow-y: scroll;
 }
 
+footer a {
+    text-decoration: none;
+    color: var(--bleu)
+}
+
+footer a:hover {
+    color: var(--bleu)
+}
