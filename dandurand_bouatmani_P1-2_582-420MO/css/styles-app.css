@@ -40,12 +40,20 @@ footer a:hover {
     color: var(--bleu)
 }
 
-.logoapp{
+.navbar-toggler{
     flex-direction: row;
     justify-content: center;
 }
 
-.navbar-toggler{
+.pfp{
+    height: 50px;
     flex-direction: row;
     justify-content: flex-end;
 }
+
+.logoapp{
+    height: 50px;
+    flex-direction: row;
+    justify-content: center;
+}
+
