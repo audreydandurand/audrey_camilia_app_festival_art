@@ -24,6 +24,9 @@
 nav{
     background-color: var(--mauve);
     width: 100vw;
+    outline: var(--bleu);
+    outline-style:groove;
+    outline-width: 2px;
 }
 
 main{
@@ -41,19 +44,14 @@ footer a:hover {
 }
 
 .navbar-toggler{
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row-reverse;
+
 }
 
-.pfp{
+img{
     height: 50px;
-    flex-direction: row;
-    justify-content: flex-end;
 }
 
-.logoapp{
-    height: 50px;
-    flex-direction: row;
-    justify-content: center;
-}
+
+
 
