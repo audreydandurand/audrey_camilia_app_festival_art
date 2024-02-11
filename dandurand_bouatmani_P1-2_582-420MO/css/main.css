@@ -78,5 +78,5 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--bleu)
+    font-weight: 500;
 }
