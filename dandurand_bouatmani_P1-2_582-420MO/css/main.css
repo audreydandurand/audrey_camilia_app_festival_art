@@ -19,59 +19,66 @@
     --blanc: white;
 }
 
-h1{ 
+h1 { 
     font-size: 70px; 
     font-weight: 900; 
     color: var(--bleu); 
     }
 
-h2{ 
+h2 { 
     font-size: 60px; 
     font-family: lalezar;
     color: var(--bleu); 
 }
 
-h3{ 
+h3 { 
     font-size: 35px; 
     font-family: kanit;
     color: var(--blanc); 
     }
 
-h4{ 
+h4 { 
     font-size: 28px; 
     font-family: kanit;
     color: var(--bleu); 
 }
 
-h5{ 
+h5 { 
     font-size: 24px; 
     font-family: kanit;
     color: var(--bleu); 
     }
-
-h6{ 
+ 
+h6 { 
     font-size: 20px; 
     font-family: kanit;
     color: var(--bleu); 
 }
 
-footer{
+footer {
     background-color: var(--beige);
     color: var(--bleu);
 }
 
 /*----- Section Hero -----*/
 
-nav{
+nav {
     background-color: var(--mauve);
     width: 100vw;
 }
 
-main{
+main {
     height: 120%;
     overflow-y: scroll;
 }
 
+.cadre {
+    width: 100%;
+    aspect-ratio: 5/9;
+    border: 3px solid var(--bleu);
+    border-radius: 8px;
+    box-shadow: 2px 1px 8px var(--bleu);
+}
 
 /*----- Section footer -----*/
 footer a {
