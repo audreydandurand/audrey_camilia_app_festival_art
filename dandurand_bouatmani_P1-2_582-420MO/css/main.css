@@ -71,6 +71,7 @@ nav {
 main {
     height: 120%;
     overflow-y: scroll;
+    padding-top: 80px;
 }
 
 .cadre {
