@@ -45,13 +45,22 @@ footer a:hover {
 
 .navbar-toggler{
     flex-direction: row-reverse;
-
 }
 
 img{
     height: 50px;
+    
 }
 
-
+Footer {
+    height: 100px;
+    background-color: var(--mauve);
+    width: 100vw;
+    outline: var(--bleu);
+    outline-style:groove;
+    outline-width: 2px;
+    position:fixed;
+    bottom:0;
+}
 
 
