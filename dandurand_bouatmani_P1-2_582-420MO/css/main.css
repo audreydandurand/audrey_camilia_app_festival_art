@@ -80,6 +80,13 @@ main {
     box-shadow: 2px 1px 8px var(--bleu);
 }
 
+.btn {
+    background-color: var(--mauve);
+    border: 2px solid var(--bleu);
+    border-radius: 50px;
+    color: var(--bleu);
+}
+
 /*----- Section footer -----*/
 footer a {
     text-decoration: none;
@@ -89,4 +96,5 @@ footer a {
 footer a:hover {
     font-weight: 500;
 }
+
 
