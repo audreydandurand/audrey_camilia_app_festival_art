@@ -64,3 +64,8 @@ Footer {
 }
 
 
+#projet{
+    color: var(--blanc);
+    font-family: kanit;
+    font-size: 16px;
+}
