@@ -69,3 +69,37 @@ Footer {
     font-family: kanit;
     font-size: 16px;
 }
+
+#rechercheArt{
+    position:fixed;
+    top:70px;
+
+}
+
+.sec2 {
+    overflow: hidden;
+    position:fixed;
+    top:170px;
+}
+
+.list-ul {
+    list-style: none;
+}
+
+#perfo{
+    border-radius: 10%;
+    border: var(--bleu);
+    border-style:groove;
+    border-width: 2px;
+    font-family: kanit;
+    
+
+}
+
+#perfo :hover {
+    background-color: var(--mauve)
+}
+
+button{
+    size: 2px;
+}
