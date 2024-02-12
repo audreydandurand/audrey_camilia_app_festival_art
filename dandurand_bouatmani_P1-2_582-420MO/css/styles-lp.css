@@ -19,4 +19,57 @@
     --blanc: white;
 }
 
+nav {
+    background-color: var(--mauve);
+    width: 100vw;
+    border-bottom: 3px solid var(--bleu);
+}
+
+main {
+    height: 120%;
+    overflow-y: scroll;
+    padding-top: 80px;
+}
+
 /*----- Section Hero -----*/
+
+.cadre {
+    width: 100%;
+    max-width: 306px;
+    aspect-ratio: 5/9;
+    border: 3px solid var(--bleu);
+    border-radius: 8px;
+    box-shadow: 2px 10px 10px var(--bleu);
+}
+
+.btn {
+    background-color: var(--mauve);
+    border: 3px solid var(--bleu);
+    border-radius: 50px;
+    color: var(--bleu);
+    margin: 4% 0;
+}
+
+.btn:hover {
+    background-color: var(--beige);
+    border: 3px solid var(--bleu);
+    border-radius: 50px;
+    color: var(--bleu);
+    margin: 4% 0;
+}
+
+/*----- Section footer -----*/
+
+footer {
+    background-color: var(--beige);
+    color: var(--bleu);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--bleu)
+}
+
+footer a:hover {
+    font-weight: 500;
+}
