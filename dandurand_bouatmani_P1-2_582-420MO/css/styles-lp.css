@@ -31,6 +31,7 @@ main {
     padding-top: 80px;
 }
 
+
 /*----- Section Hero -----*/
 
 .cadre {
@@ -56,6 +57,29 @@ main {
     border-radius: 50px;
     color: var(--bleu);
     margin: 4% 0;
+}
+
+/*----- Section fonctionnalités -----*/
+
+.features {
+    background-color: var(--beige);
+    width: 100%;
+}
+
+.features p {
+    color: var(--bleu);
+}
+
+.card {
+    border: 3px solid var(--bleu);
+    color: var(--bleu);
+    height: 100%;
+    border-radius: 33px;
+}
+
+i {
+    color: var(--mauve);
+    font-size: 30px;
 }
 
 /*----- Section footer -----*/
