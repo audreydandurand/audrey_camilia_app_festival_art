@@ -93,7 +93,8 @@ i {
 /*----- Section footer -----*/
 
 footer {
-    background-color: var(--beige);
+    background-color: var(--mauve);
+    border-top: 3px solid var(--bleu);
     color: var(--bleu);
 }
 
