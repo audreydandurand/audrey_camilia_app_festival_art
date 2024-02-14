@@ -82,6 +82,13 @@ i {
     font-size: 30px;
 }
 
+.vl {
+    color: var(--mauve);
+    width: 100px;
+    border-left: 3px solid var(--mauve);
+    height: 100%;
+}
+
 /*----- Section footer -----*/
 
 footer {
