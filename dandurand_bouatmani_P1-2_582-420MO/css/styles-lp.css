@@ -92,7 +92,13 @@ i {
 
 /*----- Section témoignages -----*/
 
-
+.section-testimonials img {
+    height: 26vh;
+    width: auto;
+    border-radius: 30px 30px 0 0;
+    object-fit: cover;
+    object-position: 100% 10%;
+}
 
 /*----- Section footer -----*/
 
