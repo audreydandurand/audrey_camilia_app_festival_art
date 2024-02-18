@@ -72,8 +72,7 @@ Footer {
 
 #rechercheArt{
     position:fixed;
-    top:70px;
-
+    top:80px;
 }
 
 .sec2 {
@@ -86,20 +85,46 @@ Footer {
     list-style: none;
 }
 
-#perfo{
-    border-radius: 10%;
-    border: var(--bleu);
-    border-style:groove;
-    border-width: 2px;
+#listbutton{
     font-family: kanit;
-    
-
+    border-color: var(--bleu);
+    border-radius: 10px;
+    border-width: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    margin-right: 5px;
 }
 
-#perfo :hover {
-    background-color: var(--mauve)
+#listbutton:hover{
+    background-color: var(--mauve);
+    border-color: var(--mauve);
 }
 
-button{
-    size: 2px;
+
+#logoTIM{
+    color: var(--blanc);
+}
+
+#rechercheArt{
+    padding-left: 50px;
+}
+
+#sectionbutton{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   left: 500px;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+}
+
+#section-artist-vedette{
+    padding-top: 250px;
+    margin-right: 5px;
+    overflow-x: auto;
+    display: inline-block;
 }

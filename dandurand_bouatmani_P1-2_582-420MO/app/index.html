@@ -6,6 +6,7 @@
     <title>Application ArtFutura</title>
     <link href="../scss/custom_bootstrap.css" rel="stylesheet" />
     <link href="../css/styles-app.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
   <body>
     <script
@@ -54,36 +55,40 @@
         <div class="container">
           <!--SECTION1-->
           <section>
-            <div id="rechercheArt" class="form-group col-10 col-sm-10">
-              <label for="recherche">
-              </label>
-              <img src="../assets/images/search.svg" alt="">
-              <input  type="chercher" class="form-control" id="artiterecherche" aria-describedby="rechercheHelp" placeholder ="Rechercher une oeuvre, un artiste...">
+            <div id="rechercheArt" class="form-group col-10 col-sm-10 text-center">
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi-search"></i></span>
+                <input type="text"
+                class="form-control"
+                placeholder="Rechercher une oeuvre, un artist">
+              </div>
             </div>
           </section>
 
           <!--SECTION2-->
 
           <section>
-            <div class="row">
-              <div class="sec2 col-12">
-                <ul class="list-ul list-group list-group-horizontal">
-                  <li id="perfo">
-                    <button type="button" class="btn btn-1">Toutes</button>
-                  </li>
-                  <li id="perfo">
-                    <button type="button" class="btn btn-2">Installation interactive</button>
-                  </li>
-                  <li id="perfo">
-                    <button type="button" class="btn btn-3">Concert</button>
-                  </li>
-                  <li id="perfo">
-                    <button type="button" class="btn btn-4">Performance</button>
-                  </li>
-                  <li id="perfo">
-                    <button type="button" class="btn btn-4">AR/VR</button>
-                  </li>
-                </ul>
+            <div class="container">
+              <div class="row fixed-center">
+                <div class="sec2 col-12">
+                  <ul class="list-ul list-group list-group-horizontal">
+                    <li>
+                      <button type="button" class="btn custom-btn" id="listbutton">Toutes</button>
+                    </li>
+                    <li>
+                      <button type="button" class="btn custom-btn" id="listbutton">Installation interactive</button>
+                    </li>
+                    <li>
+                      <button type="button" class="btn custom-btn" id="listbutton">Concert</button>
+                    </li>
+                    <li>
+                      <button type="button" class="btn custom-btn" id="listbutton">Performance</button>
+                    </li>
+                    <li>
+                      <button type="button" class="btn custom-btn" id="listbutton">AR/VR</button>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </section>
@@ -95,27 +100,62 @@
         
     </header>
     <main>
+      <!--section-artist-vedette-->
+      <div class="container">
+          <div class="row fixed-center">
+          <section class="column" id="section-artist-vedette">
+            <h2>En vedette</h2>
+            <div class="row overflow-scroll-x">
+              <!--carte 1-->
+              <div class="col-5 col-sm-6">
+                <a class="card" href="./artwork.html">
+                  <img src="" class="card-img-top">
+                  <div class="card-body">
+                    <h3>Titre 1</h3>
+                    <p>Description 1</p>
+                  </div>
+                </a>
+              </div>
+              <!--carte 2-->
+              <div class="col-5 col-sm-6">
+                <a class="card" href="./artwork.html">
+                  <img src="" class="card-img-top">
+                  <div class="card-body">
+                    <h3>Titre 2</h3>
+                    <p>Description 2</p>
+                  </div>
+                </a>
+              </div>
+              <!--carte 3-->
+              <div class="col-5 col-sm-6">
+                <a class="card" href="./artwork.html">
+                  <img src="" class="card-img-top">
+                  <div class="card-body">
+                    <h3>Titre 3</h3>
+                    <p>Description 3</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      
 
 
     </main>
 
-    <footer>
-      <div class="container col-12 col-sm-10">
-        <div class="row justify-content-start"></div>
-        <div class="col-12 text-center col-sm-6 text-sm-start" id="projet">Projet fictif réalisé dasn le cadre du cours Optimisation Web 582-424MO. UI de l'app crée par Camilia Bouatmani </div>
-      </div>
-
-      <div class="container  col-12 col-sm-12">
-          <div class="col text-center col-sm text-sm-end ">
-          <a class="navbar-brand" href="index.html">
-            <img class="" src="../assets/images/logoMonmorency.png" alt="bootstrap">
-          </a> </div>
-      </div>
-
-
-      
-
-
+    <footer class="footer">
+        <div class="container">
+          <div class="row justify-content-start">
+            <div class="col-12 col-sm-6 text-center text-sm-start "id="logoTIM" >
+              <p>Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par .</p>
+            </div>
+            <div class="col-12 col-sm-6 text-center">
+              <img src="../assets/images/logoMonmorency.png" alt="Logo TIM">
+            </div>
+          </div>
+        </div>
     </footer>
     
   </body>
