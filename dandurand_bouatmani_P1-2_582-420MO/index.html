@@ -269,26 +269,32 @@
       </section>
       <section class="section-faq pt-5" id="scrollspyVoirPlus" ><!--section-FAQ-->
         <div class="container">
-          <h2>FAQ - Foire aux questions</h2>
+          <h2 class="text-center">FAQ - Foire aux questions</h2>
           <div class="accordion" id="faq">
-
             <div class="accordion-item">
-          
-              <h2 class="accordion-header" id="question">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Élément #1 de l'accordéon
+              <h2 class="accordion-header" id="question1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reponse1" aria-expanded="false" aria-controls="reponse1">
+                Question 1
                 </button>
               </h2>
-          
-              <div id="reponse" class="accordion-collapse collapse show" aria-labelledby="question" data-bs-parent="#faq">
+              <div id="reponse1" class="accordion-collapse collapse" aria-labelledby="question1" data-bs-parent="#faq">
                 <div class="accordion-body">
-                  Ceci est le premier élément du corps de l'accordéon. Il est affiché par défaut, jusqu'à ce que...
+                  Réponse 1
                 </div>
               </div>
-          
             </div>
-          
-          </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="question2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reponse2" aria-expanded="false" aria-controls="reponse2">
+                Question 2
+                </button>
+              </h2>
+              <div id="reponse2" class="accordion-collapse collapse" aria-labelledby="question2" data-bs-parent="#faq">
+                <div class="accordion-body">
+                  Réponse 2
+                </div>
+              </div>
+            </div>
         </div>
       </section>
     </div>
