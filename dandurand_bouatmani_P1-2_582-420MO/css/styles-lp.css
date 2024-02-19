@@ -104,6 +104,20 @@ i {
     object-position: 100% 10%;
 }
 
+/*----- Section infolettre -----*/
+
+.section-infolettre {
+    background-image: url(../assets/images/dorel-gnatiuc-sLEO6BoRZF8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.section-infolettre .col {
+    background-color: var(--blanc);
+    opacity: 85%;
+}
+
 /*----- Section footer -----*/
 
 footer {
