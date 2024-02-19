@@ -94,6 +94,15 @@ i {
     height: 100%;
 }
 
+/*----- Section FAQ -----*/
+.section-faq {
+background-color: var(--beige);
+border-radius: 30px;
+}
+
+.accordion-button {
+    border: 3px solid var(--bleu);
+}
 /*----- Section témoignages -----*/
 
 .section-testimonials img {
@@ -116,6 +125,14 @@ i {
 .section-infolettre .col {
     background-color: var(--blanc);
     opacity: 85%;
+}
+
+/*----- Section modal -----*/
+
+.modal input {
+    width: 90%;
+    border: 1px solid var(--bleu);
+    border-radius: 5px;
 }
 
 /*----- Section footer -----*/
