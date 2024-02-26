@@ -95,15 +95,16 @@ i {
 }
 
 /*----- Section FAQ -----*/
-.section-faq {
-background-color: var(--bs-info);
-border-radius: 30px;
-}
 
 .accordion-button {
     border: 3px solid var(--bs-primary);
 }
 /*----- Section témoignages -----*/
+
+.section-testimonials {
+    background-color: var(--bs-info);
+    border-radius: 30px;
+}
 
 .section-testimonials img {
     height: 26vh;
