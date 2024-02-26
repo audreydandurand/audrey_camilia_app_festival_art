@@ -133,10 +133,17 @@ footer a {
     background-color: var(--blanc);
 }
 
+#titrevedette{
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
 
 #section-artist-vedette{
     padding-top: 100px;
-    margin-right: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    right: 200px;
 }
 
 #carteAutre{
