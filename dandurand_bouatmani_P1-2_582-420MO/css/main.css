@@ -57,5 +57,22 @@ h6 {
 
 /*----- Section Hero -----*/
 
+nav{
+    background-color: var(--mauve);
+    width: 100vw;
+}
 
+main{
+    height: 120%;
+    overflow-y: scroll;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--bleu)
+}
+
+footer a:hover {
+    color: var(--bleu)
+}
 
