@@ -20,31 +20,11 @@
 }
 
 /*----- Section Hero -----*/
-
-nav{
-    background-color: var(--mauve);
-    width: 100vw;
-    outline: var(--bleu);
-    outline-style:groove;
-    outline-width: 2px;
-}
-
-main{
-    height: 120%;
-    overflow-y: scroll;
-}
-
-footer a {
-    text-decoration: none;
-    color: var(--bleu)
-}
-
-footer a:hover {
-    color: var(--bleu)
-}
-
-.navbar-toggler{
-    flex-direction: row-reverse;
+h2{ 
+    font-size: 40px; 
+    font-weight: bolder;
+    font-family: lalezar;
+    color: var(--bleu); 
 }
 
 img{
@@ -52,33 +32,48 @@ img{
     
 }
 
-Footer {
-    height: 100px;
+nav{
     background-color: var(--mauve);
     width: 100vw;
     outline: var(--bleu);
     outline-style:groove;
-    outline-width: 2px;
-    position:fixed;
+    outline-width: 1.5px;
+    overflow-x: hidden; 
+}
+
+.navbar-toggler{
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+main{
+    position:static;
+    height: 120%;
+    overflow-y: scroll;
+    
+}
+
+Footer {
+    height: 120px;
+    background-color: var(--mauve);
+    width: 100%;
+    outline: var(--bleu);
+    outline-style:groove;
+    outline-width: 1.5px;
+    position:relative;
     bottom:0;
 }
 
+footer a {
+    bottom: 0px;
+    text-decoration: none;
+    color: var(--bleu)
+}
 
-#projet{
-    color: var(--blanc);
+#projetRealiser{
+    color: var(--bleu);
+    font-size: 18px;
     font-family: kanit;
-    font-size: 16px;
-}
-
-#rechercheArt{
-    position:fixed;
-    top:80px;
-}
-
-.sec2 {
-    overflow: hidden;
-    position:fixed;
-    top:170px;
 }
 
 .list-ul {
@@ -87,13 +82,16 @@ Footer {
 
 #listbutton{
     font-family: kanit;
+    font-weight: bolder;
+    font-size: 15px ;
     border-color: var(--bleu);
     border-radius: 10px;
     border-width: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    display: inline-block;
-    margin-right: 5px;
+    display: flex;
+    margin-right: 3px;
+    justify-content: flex-start;
 }
 
 #listbutton:hover{
@@ -101,30 +99,83 @@ Footer {
     border-color: var(--mauve);
 }
 
-
-#logoTIM{
-    color: var(--blanc);
-}
-
-#rechercheArt{
-    padding-left: 50px;
-}
-
-#sectionbutton{
-   display: flex;
-   text-align: center;
-   justify-content: center;
-   left: 500px;
-}
-
 .sec2 {
+    position: relative;
+    overflow: hidden;
+    top:80px;
     display: flex;
     justify-content: center;
 }
 
+.form-control{
+    border-radius: 10px;
+    font-family: Kanit;
+    border-color: var(--bleu);
+    border-width: 2px;
+
+}
+
+.input-group-text{
+    border-radius: 10px;
+    border-color: var(--bleu);
+    border-width: 2px;
+    background-color: var(--mauve);
+}
+
+.sec1{
+    position: relative;
+    width: 800px;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--blanc);
+}
+
+
 #section-artist-vedette{
-    padding-top: 250px;
+    padding-top: 100px;
     margin-right: 5px;
-    overflow-x: auto;
-    display: inline-block;
+}
+
+#carteAutre{
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+#carteAutre:hover{
+    transform: scale(102%);
+}
+
+.card{
+    border-color: var(--bleu);
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: var(--rose);
+}
+
+.card-img-top {
+    height: 15vh;
+    object-fit: cover;
+    object-position: 50%;
+}
+
+.card:hover{
+    background-color: var(--mauve);
+}
+
+#carteVedette{
+    position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#carteVedette:hover{
+    transform: scale(102%);
+
+}
+
+.plusInfo .card-text .card-title .date{
+    font-family:lalezar;
 }

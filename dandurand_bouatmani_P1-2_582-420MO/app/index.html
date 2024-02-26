@@ -17,6 +17,8 @@
     <header>
       <nav class="navbar navbar-light fixed-top">
 
+        <!--TOGGLER-->
+
         <div class="container">
           <div class="button">
           <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
@@ -24,11 +26,19 @@
           </button>
         </div>
 
-          <a class="navbar-brand" href="index.html">
-            <img src="../assets/images/LOGOfestivalAPP.png" alt="bootstrap"></a>
+          <!--LOGO-FESTIVAL-->
 
           <a class="navbar-brand" href="index.html">
-            <img src="../assets/images/PFP.png" alt="bootstrap"></a>
+            <img src="../assets/images/LOGOfestivalAPP.png" alt="bootstrap">
+          </a>
+
+          <!--LOGO-MONTMO-->
+
+          <a class="navbar-brand" href="index.html">
+            <img src="../assets/images/PFP.png" alt="bootstrap">
+          </a>
+
+          <!--HAMBERGER-->
         
           <div id="mainNav" class="collapse navbar-collapse">
             <ul class="navbar-nav">
@@ -49,110 +59,186 @@
               </li>
             </ul>
           </div>
-
+       
         </nav>
 
-        <div class="container">
+        <!--RECHERCHE-->
+
+      
           <!--SECTION1-->
-          <section>
-            <div id="rechercheArt" class="form-group col-10 col-sm-10 text-center">
-              <div class="input-group">
-                <span class="input-group-text"><i class="bi-search"></i></span>
-                <input type="text"
-                class="form-control"
-                placeholder="Rechercher une oeuvre, un artist">
-              </div>
-            </div>
-          </section>
-
-          <!--SECTION2-->
-
-          <section>
-            <div class="container">
-              <div class="row fixed-center">
-                <div class="sec2 col-12">
-                  <ul class="list-ul list-group list-group-horizontal">
-                    <li>
-                      <button type="button" class="btn custom-btn" id="listbutton">Toutes</button>
-                    </li>
-                    <li>
-                      <button type="button" class="btn custom-btn" id="listbutton">Installation interactive</button>
-                    </li>
-                    <li>
-                      <button type="button" class="btn custom-btn" id="listbutton">Concert</button>
-                    </li>
-                    <li>
-                      <button type="button" class="btn custom-btn" id="listbutton">Performance</button>
-                    </li>
-                    <li>
-                      <button type="button" class="btn custom-btn" id="listbutton">AR/VR</button>
-                    </li>
-                  </ul>
+        
+            <section class="row justify-content-center">
+              <div class="sec1 col-9 mt-1">
+                <div class="input-group">
+                  <span class="input-group-text"><i class="bi-search"></i></span>
+                  <input type="text"
+                  class="form-control"
+                  placeholder="Rechercher une oeuvre, un artist">
                 </div>
               </div>
-            </div>
+            </section>
+
+          <!--NAVIGATION-->
+
+            <!--SECTION2-->
+          
+            <section class="row justify-content-center">
+              <div class="sec2 col-12">
+                <ul class="list-ul list-group list-group-horizontal">
+                  <li>
+                    <button type="button" class="btn custom-btn" id="listbutton">Toutes</button>
+                  </li>
+                  <li>
+                    <button type="button" class="btn custom-btn" id="listbutton">Installation interactive</button>
+                  </li>
+                  <li>
+                    <button type="button" class="btn custom-btn" id="listbutton">Concert</button>
+                  </li>
+                  <li>
+                    <button type="button" class="btn custom-btn" id="listbutton">Performance</button>
+                  </li>
+                  <li>
+                    <button type="button" class="btn custom-btn" id="listbutton">AR/VR</button>
+                  </li>
+                </ul>
+              </div>
           </section>
+      </div>
 
+        <!--ARTIST-EN-VEDETTE-->
 
-        </div>
-
-
-        
     </header>
     <main>
       <!--section-artist-vedette-->
-      <div class="container">
-          <div class="row fixed-center">
-          <section class="column" id="section-artist-vedette">
-            <h2>En vedette</h2>
-            <div class="row overflow-scroll-x">
-              <!--carte 1-->
-              <div class="col-5 col-sm-6">
-                <a class="card" href="./artwork.html">
-                  <img src="" class="card-img-top">
-                  <div class="card-body">
-                    <h3>Titre 1</h3>
-                    <p>Description 1</p>
+      <section class="row gy-1 gx-2 mt-1 col-12" id="section-artist-vedette">
+                <h2>En vedette</h2>
+                  <!--carte 1-->
+                  <div id="carteVedette" class="col-7 col-sm-7">
+                    <a href="artwork.html" class="card mb-3">
+                      <img src="" class="card-img-top" />
+                      <div class="card-body">
+                        <h5 class="card-title">Nom art</h5>
+                        <p class="card-text">Nom artist</p>
+                        <div class="d-flex justify-content-between">
+                          <span class="date" class="text-start">
+                          <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
+                          <span class="plusInfo" class="text-end">
+                          <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
+                        </div>
+                      </div>
+                    </a>
                   </div>
-                </a>
-              </div>
-              <!--carte 2-->
-              <div class="col-5 col-sm-6">
-                <a class="card" href="./artwork.html">
-                  <img src="" class="card-img-top">
-                  <div class="card-body">
-                    <h3>Titre 2</h3>
-                    <p>Description 2</p>
+                  <!--carte 2-->
+                  <div id="carteVedette" class="col-7 col-sm-7">
+                    <a href="artwork.html" class="card mb-3">
+                      <img src="" class="card-img-top" />
+                      <div class="card-body">
+                        <h5 class="card-title">Nom art</h5>
+                        <p class="card-text">Nom artist</p>
+                        <div class="d-flex justify-content-between">
+                          <span class="date" class="text-start">
+                          <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
+                          <span class="plusInfo" class="text-end">
+                          <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
+                        </div>
+                      </div>
+                    </a>
                   </div>
-                </a>
-              </div>
-              <!--carte 3-->
-              <div class="col-5 col-sm-6">
-                <a class="card" href="./artwork.html">
-                  <img src="" class="card-img-top">
-                  <div class="card-body">
-                    <h3>Titre 3</h3>
-                    <p>Description 3</p>
+                  <!--carte 3-->
+                  <div id="carteVedette" class="col-7 col-sm-7">
+                    <a href="artwork.html" class="card mb-3">
+                      <img src="" class="card-img-top" />
+                      <div class="card-body">
+                        <h5 class="card-title">Nom art</h5>
+                        <p class="card-text">Nom artist</p>
+                        <div class="d-flex justify-content-between">
+                          <span class="date" class="text-start">
+                          <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
+                          <span class="plusInfo" class="text-end">
+                          <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
+                        </div>
+                      </div>
+                    </a>
                   </div>
-                </a>
+      </section>
+
+      <!--AUTRE-ARTIST-->
+
+      <section id="autres" class="columm">
+
+        <h2>Autres</h2>
+
+        <!--CARTE-1-ARTIST-->
+
+        <div id="carteAutre" class="container fixed-center col-12 col-sm-12">
+          <div class="col-12">
+            <a href="artwork.html"class="card">
+              <img src="" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Nom art</h4>
+                <p class="card-text">Nom artist</p>
+                <div class="d-flex justify-content-between">
+                  <span class="date" class="text-start">
+                  <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
+                  <span class="plusInfo" class="text-end">
+                    <h7 href="artwork.html"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
-        </section>
-      </div>
-      
+        </div>
 
+        <!--CARTE-2-ARTIST-->
 
+        <div id="carteAutre" class="container fixed-center col-12 col-sm-12">
+          <div class="col-12">
+            <a href="artwork.html"class="card">
+              <img src="" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Nom art</h4>
+                <p class="card-text">Nom artist</p>
+                <div class="d-flex justify-content-between">
+                  <span class="date" class="text-start">
+                  <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
+                  <span class="plusInfo" class="text-end">
+                    <h7 href="artwork.html"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!--CARTE-3-ARTIST-->
+
+        <div id="carteAutre" class="container fixed-center col-12 col-sm-12">
+          <div class="col-12">
+            <a href="artwork.html"class="card">
+              <img src="" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Nom art</h4>
+                <p class="card-text">Nom artist</p>
+                <div class="d-flex justify-content-between">
+                  <span class="date" class="text-start">
+                  <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
+                  <span class="plusInfo" class="text-end">
+                    <h7 href="artwork.html"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
     </main>
 
+    <!--FOOTER--->
+
     <footer class="footer">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row justify-content-start">
-            <div class="col-12 col-sm-6 text-center text-sm-start "id="logoTIM" >
-              <p>Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par .</p>
+            <div class="col-12 col-sm-6"id="projetRealiser" >
+              <p class="text-center text-sm-start ">Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. UI de l'app créé par Camilia Bouatmani.</p>
             </div>
             <div class="col-12 col-sm-6 text-center">
-              <img src="../assets/images/logoMonmorency.png" alt="Logo TIM">
+              <img id="logomomo" class="d-block me-sm-0 ms-auto me-auto" src="../assets/images/logoMonmorency.png">
             </div>
           </div>
         </div>
