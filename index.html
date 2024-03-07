@@ -10,9 +10,12 @@
   <link href="./css/main.css" rel="stylesheet" />
   <link href="./css/styles-lp.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!--installation librairie swiper-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
   <header>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
       <div class="container">
@@ -48,10 +51,15 @@
     </nav>
   </header>
 
-  <main data-bs-spy="scroll" data-bs-target="#navbar">
+  <!--main-->
+
+  <main>
     <div class="container">
-      <section id="scrollspyAppli"> <!--section-hero-->
-        <div class="row align-items-center" >
+
+      <!--section-hero-->
+
+      <section id="scrollspyAppli">
+        <div class="row align-items-center">
           <div class="col-lg-6  text-lg-start text-center">
             <h2>Découvrez l'appli officielle du festival <b> ArtFutura</b></h2>
             <h4>Tirez profit de cette appli qui rendra votre expérience fluide et sans compromis.</h4>
@@ -64,7 +72,10 @@
           </div>
         </div>
       </section>
-      <section class="features" id="scrollspyFonctionnalites"> <!--section-features-->
+
+      <!--section-features-->
+
+      <section class="features" id="scrollspyFonctionnalites">
         <div class="container">
           <div class="row mt-5 pt-5 px-5 text-center">
             <h2>Fonctionnalités</h2>
@@ -190,17 +201,41 @@
           </div>
         </div>
       </section>
-      <section class="voir-plus py-5" id="scrollspyVoirPlus"> <!--section-voir-plus-->
+
+      <!--section-voir-plus-->
+
+      <section class="voir-plus py-5" id="scrollspyVoirPlus">
         <div class="container">
           <div class="row text-center">
             <h2>Prévisualisez l'interface de l'appli</h2>
           </div>
+          <div class="row text-center">
+            <!-- Slider main container -->
+            <div class="swiper swiper-screenshots">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assets/images/impression_ecran_haut_app_redimensionne.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/impression_ecran_bas_app_redimensionne.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/impression_ecran_bas_app_redimensionne.jpg"></div>
+              </div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="section-testimonials p-5" id="scrollspyTemoignages" ><!--section-testimonials-->
+
+      <!--section-testimonials-->
+
+      <section class="section-testimonials p-5" id="scrollspyTemoignages">
         <div class="container">
           <div class="row text-center">
             <h2>Témoignages</h2>
-            <p class="pb-5">En téléchargeant notre appli, vous allez profiter d'une foule de fonctionnalités qui vous permettront de
+            <p class="pb-5">En téléchargeant notre appli, vous allez profiter d'une foule de fonctionnalités qui vous
+              permettront de
               vivre une expéreince totale et complète lors des expositions et des performances du festival.</p>
           </div>
           <div class="row">
@@ -211,7 +246,8 @@
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
                   <h3 class="card-title">L'application parfaite!</h3>
-                  Cette application a complètement amélioré mon expérience pour ce festival! Parfait pour avoir une expérience hors du commun et simplifier!
+                  Cette application a complètement amélioré mon expérience pour ce festival! Parfait pour avoir une
+                  expérience hors du commun et simplifier!
                 </div>
               </div>
             </div>
@@ -222,7 +258,8 @@
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
                   <h3 class="card-title">Rien de mieux pour une première expérience</h3>
-                  Pour une première expérience, cette application m'a rendu la tâche facile. J'ai pu créer mon horaire personnalisé en fonction des oeuvres que je préférais et que j'ai pu repérer dans le catalogue.
+                  Pour une première expérience, cette application m'a rendu la tâche facile. J'ai pu créer mon horaire
+                  personnalisé en fonction des oeuvres que je préférais et que j'ai pu repérer dans le catalogue.
                 </div>
               </div>
             </div>
@@ -233,7 +270,10 @@
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
                   <h3 class="card-title">Expérience rassembleuse grâce à l'application</h3>
-                  Pouvoir contrôler certaines parties d'oeuvres à même l'application a beaucoup apporté de positif à ma visite au festival. Cela nous permet de nous rassembler entre familles et amis.  La carte présente dans l'application nous permettait aussi de ne pas nous perdre et de savoir où était chaque personne sur le site.  
+                  Pouvoir contrôler certaines parties d'oeuvres à même l'application a beaucoup apporté de positif à ma
+                  visite au festival. Cela nous permet de nous rassembler entre familles et amis. La carte présente dans
+                  l'application nous permettait aussi de ne pas nous perdre et de savoir où était chaque personne sur le
+                  site.
                 </div>
               </div>
             </div>
@@ -244,7 +284,9 @@
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
                   <h3 class="card-title">Programmation intégrée parfaite!</h3>
-                  La programmation incluse dans l'application était très pratique et elle nous permettait de ne pas rater ce qui nous intéressait le plus. Je pouvais aussi repérer tous mes amis sur la carte et savoir où était chacun de mes amis en tout temps!
+                  La programmation incluse dans l'application était très pratique et elle nous permettait de ne pas
+                  rater ce qui nous intéressait le plus. Je pouvais aussi repérer tous mes amis sur la carte et savoir
+                  où était chacun de mes amis en tout temps!
                 </div>
               </div>
             </div>
@@ -255,7 +297,9 @@
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
                   <h3 class="card-title">Catalogue d'oeuvres très pratique</h3>
-                  J'ai pu préparer ma visite à l'avance en explorant le catalogue des oeuvres et artistes présents au festival. Cette fonctionnalité de l'application m'a évité de rechercher mes informations sur plusieurs sites internet. Chaque festival devrait en avoir une semblable!
+                  J'ai pu préparer ma visite à l'avance en explorant le catalogue des oeuvres et artistes présents au
+                  festival. Cette fonctionnalité de l'application m'a évité de rechercher mes informations sur plusieurs
+                  sites internet. Chaque festival devrait en avoir une semblable!
                 </div>
               </div>
             </div>
@@ -266,21 +310,26 @@
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
                   <h3 class="card-title">Rapidité et facilité - Achat de billet</h3>
-                  J'ai pu acheter mes billets à partir de l'application et cela m'a beaucoup simplifié la vie. Mes réservations ont pu être faite lors de l'achat de mes billets!  
+                  J'ai pu acheter mes billets à partir de l'application et cela m'a beaucoup simplifié la vie. Mes
+                  réservations ont pu être faite lors de l'achat de mes billets!
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section-faq pt-5 pb-5"><!--section-FAQ-->
+
+      <!--section-FAQ-->
+
+      <section class="section-faq pt-5 pb-5">
         <div class="container">
           <h2 class="text-center pb-4">FAQ - Foire aux questions</h2>
           <div class="accordion" id="faq">
             <div class="accordion-item">
               <h2 class="accordion-header" id="question1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reponse1" aria-expanded="false" aria-controls="reponse1">
-                Question 1
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#reponse1" aria-expanded="false" aria-controls="reponse1">
+                  Question 1
                 </button>
               </h2>
               <div id="reponse1" class="accordion-collapse collapse" aria-labelledby="question1" data-bs-parent="#faq">
@@ -291,8 +340,9 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="question2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reponse2" aria-expanded="false" aria-controls="reponse2">
-                Question 2
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#reponse2" aria-expanded="false" aria-controls="reponse2">
+                  Question 2
                 </button>
               </h2>
               <div id="reponse2" class="accordion-collapse collapse" aria-labelledby="question2" data-bs-parent="#faq">
@@ -301,17 +351,22 @@
                 </div>
               </div>
             </div>
-        </div>
+          </div>
       </section>
       <div class="p-4"></div>
-      <section class="section-infolettre" id="scrollspyInfolettre" ><!--section-Infolettre-->
+
+      <!--section-Infolettre-->
+
+      <section class="section-infolettre" id="scrollspyInfolettre">
         <div class="container">
           <div class="row p-5 ">
             <div class="col text-center col-md-6 offset-md-6 text-md-start p-3">
               <h2>Infolettre</h2>
-              <p>Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l’appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</p>
-              <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal"
-              data-bs-target="#modal">Je m'abonne</button>
+              <p>Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles
+                fonctionnalités de l’appli, en plus de recevoir en primeur les détails des prochaines éditions du
+                festival.</p>
+              <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Je
+                m'abonne</button>
             </div>
           </div>
         </div>
@@ -341,7 +396,9 @@
     </div>
   </main>
 
-  <footer class="p-3 my-3 text-center">
+  <!--footer-->
+
+  <footer class="p-3 mt-3 text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 ">
@@ -358,10 +415,16 @@
     </div>
     </div>
   </footer>
+
+  <!--script js-->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./js/script.js"></script>
+
+
 </body>
 
 </html>
