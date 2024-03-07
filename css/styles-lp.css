@@ -1,0 +1,154 @@
+/*----- Styles Généraux -----*/
+
+@font-face {
+    font-family: kanit;
+    src: url(/font/Kanit/Kanit-Regular.ttf);
+  }
+
+@font-face {
+    font-family: lalezar;
+    src: url(/font/Lalezar/Lalezar-Regular.ttf);
+}
+
+:root {
+    --rose: #D1D2F9;
+    --beige: #C9CAD9;
+    --mauve: #A3BCF9;
+    --gris: #7C7C7C;
+    --bleu: #084667;
+    --blanc: white;
+}
+
+nav {
+    background-color: var(--bs-secondary);
+    width: 100vw;
+    border-bottom: 3px solid var(--bs-primary);
+}
+
+main {
+    height: 120%;
+    overflow-y: scroll;
+    padding-top: 80px;
+}
+
+
+/*----- Section Hero -----*/
+
+.cadre {
+    width: 100%;
+    max-width: 306px;
+    aspect-ratio: 5/9;
+    border: 3px solid var(--bs-primary);
+    border-radius: 8px;
+    box-shadow: 2px 10px 10px var(--bs-primary);
+}
+
+iframe {
+    height: 100%;
+}
+
+.btn {
+    background-color: var(--bs-secondary);
+    border: 3px solid var(--bs-primary);
+    border-radius: 50px;
+    color: var(--bs-primary);
+    margin: 4% 0;
+}
+
+.btn:hover {
+    background-color: var(--bs-info);
+    border: 3px solid var(--bs-primary);
+    border-radius: 50px;
+    color: var(--bs-primary);
+    margin: 4% 0;
+}
+
+/*----- Section fonctionnalités -----*/
+
+.features {
+    background-color: var(--bs-info);
+    width: 100%;
+    border-radius: 33px;
+}
+
+.features p {
+    color: var(--bs-primary);
+}
+
+.card {
+    border: 3px solid var(--bs-primary);
+    color: var(--bs-primary);
+    height: 100%;
+    border-radius: 33px;
+}
+
+i {
+    color: var(--bs-secondary);
+    font-size: 30px;
+}
+
+.vl {
+    color: var(--bs-secondary);
+    width: 100px;
+    border-left: 3px solid var(--bs-secondary);
+    height: 100%;
+}
+
+/*----- Section FAQ -----*/
+
+.accordion-button {
+    border: 3px solid var(--bs-primary);
+}
+/*----- Section témoignages -----*/
+
+.section-testimonials {
+    background-color: var(--bs-info);
+    border-radius: 30px;
+}
+
+.section-testimonials img {
+    height: 26vh;
+    width: auto;
+    border-radius: 30px 30px 0 0;
+    object-fit: cover;
+    object-position: 100% 10%;
+}
+
+/*----- Section infolettre -----*/
+
+.section-infolettre {
+    background-image: url(../assets/images/dorel-gnatiuc-sLEO6BoRZF8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.section-infolettre .col {
+    background-color: var(--bs-white);
+    opacity: 85%;
+}
+
+/*----- Section modal -----*/
+
+.modal input {
+    width: 90%;
+    border: 1px solid var(--bs-primary);
+    border-radius: 5px;
+}
+
+/*----- Section footer -----*/
+
+footer {
+    background-color: var(--bs-secondary);
+    border-top: 3px solid var(--bs-primary);
+    color: var(--bs-primary);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--bs-primary);
+}
+
+footer a:hover {
+    font-weight: 500;
+}
