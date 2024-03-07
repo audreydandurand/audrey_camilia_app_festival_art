@@ -29,6 +29,6 @@
         // when window width is >= 320px
         1200: {
           slidesPerView: 3,
-          spaceBetween: 200
+          spaceBetween: 20
         }, }
   });
