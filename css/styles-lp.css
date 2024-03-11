@@ -129,6 +129,7 @@ i {
 
 .modal input {
     width: 90%;
+    height: 4vh;
     border: 1px solid var(--bs-primary);
     border-radius: 5px;
 }
@@ -142,6 +143,10 @@ i {
     width: 100%;
     
 }
+
+@media screen and (max-width: 1200px) { 
+    .swiper img {width: 50%; }
+  }
 
 .swiper-slide.active {
     opacity: 0.4;
@@ -161,5 +166,5 @@ footer a {
 }
 
 footer a:hover {
-    font-weight: 500;
+    color: var(--bs-white);
 }
