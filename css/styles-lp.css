@@ -25,6 +25,10 @@ nav {
     border-bottom: 3px solid var(--bs-primary);
 }
 
+.nav-link:active {
+    font-weight: 500;
+}
+
 main {
     height: 120%;
     overflow-y: scroll;
