@@ -68,7 +68,6 @@ iframe {
 .features {
     background-color: var(--bs-info);
     width: 100%;
-    border-radius: 33px;
 }
 
 .features p {
@@ -103,7 +102,6 @@ i {
 
 .section-testimonials {
     background-color: var(--bs-info);
-    border-radius: 30px;
 }
 
 .section-testimonials img {
@@ -120,7 +118,6 @@ i {
     background-image: url(../assets/images/dorel-gnatiuc-sLEO6BoRZF8-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 30px;
 }
 
 .section-infolettre .col {
