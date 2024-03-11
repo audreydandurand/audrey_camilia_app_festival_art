@@ -148,6 +148,10 @@ i {
     .swiper img {width: 50%; }
   }
 
+  @media screen and (max-width: 992px) { 
+    .swiper img {width: 70%; }
+  }
+
 .swiper-slide.active {
     opacity: 0.4;
 }
