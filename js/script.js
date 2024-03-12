@@ -17,7 +17,6 @@
   });*/
 
   var swiper = new Swiper(".swiper-screenshots", {
-    centeredSlides: true,
     loop: true,
     breakpoints: {
         // when window width is >= 1200px
