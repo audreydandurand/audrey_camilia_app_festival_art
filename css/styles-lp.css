@@ -161,7 +161,7 @@ i {
     .swiper img {width: 70%; }
   }
 
-div.swiper-slide:not(.swiper-slide-next){
+div.swiper-slide:not(.swiper-slide-active){
     opacity: 0.5;
 }
 

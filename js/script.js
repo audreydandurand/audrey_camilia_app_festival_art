@@ -18,6 +18,7 @@
 
   var swiper = new Swiper(".swiper-screenshots", {
     loop: true,
+    centeredSlides: true,
     breakpoints: {
         // when window width is >= 1200px
         1200: {
