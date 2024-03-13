@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: kanit;
-    src: url(/font/Kanit/Kanit-Regular.ttf);
+    src: url(../font/Kanit/Kanit-Regular.ttf);
   }
 
 @font-face {
     font-family: lalezar;
-    src: url(/font/Lalezar/Lalezar-Regular.ttf);
+    src: url(../font/Lalezar/Lalezar-Regular.ttf);
 }
 
 :root {
