@@ -18,6 +18,18 @@
 
   });
 
+  var swiperList = new Swiper(".swiper-list", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+
+  });
+
     var swiperOeuvre = new Swiper(".swiper-featured-artworks", {
       slidesPerView: 2,
       spaceBetween: 30,

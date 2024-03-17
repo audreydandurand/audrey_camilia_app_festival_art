@@ -11,11 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   </head>
   <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+
     <header>
       <nav class="navbar navbar-light fixed-top">
 
@@ -89,33 +85,24 @@
 
           <!--SECTION2-->
         
-          <section class="row justify-content-center">
-            <div class="swiper swiper-list">
-            <div class="swiper-wrapper col-sm-12 mt-3 mb-3">
-              <div class="swiper-slide"> 
-                  <button type="button" class="btn custom-btn" id="listbutton">Toutes</button>
+          <section>
+            <div class="container">
+              <div class="row ">
+                <!-- Slider main container -->
+                <div class="swiper swiper-list">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><button type="button" class="btn custom-btn" id="listbutton">Toutes</button></div>
+                    <div class="swiper-slide"><button type="button" class="btn custom-btn" id="listbutton">Installation interactive</button></div>
+                    <div class="swiper-slide"><button type="button" class="btn custom-btn" id="listbutton">Concert</button></div>
+                    <div class="swiper-slide"><button type="button" class="btn custom-btn" id="listbutton">Performance</button></div>
+                    <div class="swiper-slide"><button type="button" class="btn custom-btn" id="listbutton">AR/VR</button></div>
+                  </div>
                 </div>
-
-                  <div class="swiper-slide">
-                  <button type="button" class="btn custom-btn" id="listbutton">Installation interactive</button>
-                  </div>
-
-                  <div class="swiper-slide">
-                  <button type="button" class="btn custom-btn" id="listbutton">Concert</button>
-                  </div>
-
-                  <div class="swiper-slide">
-                  <button type="button" class="btn custom-btn" id="listbutton">Performance</button>
-                  </div>
-
-                  <div class="swiper-slide">
-                  <button type="button" class="btn custom-btn" id="listbutton">AR/VR</button>
-                  </div>
-             
+              </div>
             </div>
-          </div>
-        </section>
-    </div>
+          </section>
 
       <!--ARTIST-EN-VEDETTE-->
       <div class="mb-3 mt-2">
@@ -263,5 +250,12 @@
         </div>
     </footer>
     
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/script.js"></script>
+
   </body>
 </html>
