@@ -34,20 +34,7 @@
 
   });
 
-<<<<<<< Updated upstream
-  document.addEventListener('DOMContentLoaded', function() {
-    var swiperOeuvre = new Swiper(".swiper-oeuvre", {
+    var swiperOeuvre = new Swiper(".swiper-featured-artworks", {
       slidesPerView: 'auto',
       freeMode: true,
     });
-  });
-=======
-
-
-  var swiperOeuvre = new Swiper(".swiper-featured-artworks", {
-    slidesPerView: 3,
-    spaceBetween: 30
-  });
-  
-  
->>>>>>> Stashed changes
