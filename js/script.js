@@ -34,3 +34,11 @@
 
   });
 
+
+
+  var swiperOeuvre = new Swiper(".swiper-oeuvre", {
+    slidesPerView: 'auto',
+    freeMode: true,
+  });
+  
+  
