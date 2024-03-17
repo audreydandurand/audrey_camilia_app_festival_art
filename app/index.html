@@ -7,13 +7,11 @@
     <link href="../scss/custom_bootstrap.css" rel="stylesheet" />
     <link href="../css/styles-app.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--installation librairie swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   </head>
   <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+    
     <header>
       <nav class="navbar navbar-light fixed-top">
 
@@ -113,10 +111,12 @@
       <!--ARTIST-EN-VEDETTE-->
       <div class="mb-3 mt-2">
         <h2 id="titrevedette">En vedette</h2>
-        <section class="swiper swiper-oeuvre"  id="section-artist-vedette">
-          <div class="swiper-wrapper row flex-nowrap ">
-                    <!--CARTE1-->
-                      <div id="carteVedette" class=" col-8 col-sm-7">
+        <section id="section-artist-vedette">
+            <div class="swiper swiper-featured-artworks">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
                         <a href="artwork.html" class="card mb-3">
                           <img src="../assets/images/Tobias_gremmler_symbiotic.png" class="card-img-top" />
                           <div class="card-body">
@@ -130,10 +130,8 @@
                             </div>
                           </div>
                         </a>
-                      </div>
-                    <!--CARTE2-->
-        
-                      <div id="carteVedette" class="col-8 col-sm-7">
+                    </div>
+                <div class="swiper-slide">                      
                         <a class="card mb-3">
                           <img src="../assets/images/teamlab_birdsInWind.png" class="card-img-top" />
                           <div class="card-body">
@@ -147,9 +145,8 @@
                             </div>
                           </div>
                         </a>
-                      </div>
-                    <!--CARTE3-->
-                      <div id="carteVedette" class="col-8 col-sm-7">
+                    </div>
+                <div class="swiper-slide">                      
                         <a class="card mb-3">
                           <img src="../assets/images/universal_everything_transfiguration.png" class="card-img-top" />
                           <div class="card-body">
@@ -163,7 +160,53 @@
                             </div>
                           </div>
                         </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="artwork.html" class="card mb-3">
+                        <img src="../assets/images/Tobias_gremmler_symbiotic.png" class="card-img-top" />
+                        <div class="card-body">
+                          <h5 class="card-title">Symbiotic</h5>
+                          <p class="card-text">Par Tobias Gremmier</p>
+                          <div class="d-flex justify-content-between">
+                            <span class="date" class="text-start">
+                            <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
+                            <span class="plusInfo" class="text-end">
+                            <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
+                          </div>
+                        </div>
+                      </a>
+                  </div>
+                  <div class="swiper-slide">                      
+                    <a class="card mb-3">
+                      <img src="../assets/images/teamlab_birdsInWind.png" class="card-img-top" />
+                      <div class="card-body">
+                        <h5 class="card-title">Birds in the Wind</h5>
+                        <p class="card-text">Par Teamlab</p>
+                        <div class="d-flex justify-content-between">
+                          <span class="date" class="text-start">
+                          <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
+                          <span class="plusInfo" class="text-end">
+                          <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
+                        </div>
                       </div>
+                    </a>
+                </div>
+                    <div class="swiper-slide">                      
+                      <a class="card mb-3">
+                        <img src="../assets/images/universal_everything_transfiguration.png" class="card-img-top" />
+                        <div class="card-body">
+                          <h5 class="card-title">Transfiguration</h5>
+                          <p class="card-text">Par Universal Everything</p>
+                          <div class="d-flex justify-content-between">
+                            <span class="date" class="text-start">
+                            <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
+                            <span class="plusInfo" class="text-end">
+                            <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
+                          </div>
+                        </div>
+                      </a>
+                  </div>
+
            </div>            
         </section>
       </div>
@@ -251,5 +294,12 @@
         </div>
     </footer>
     
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script src="../js/script.js"></script>
+
   </body>
 </html>
