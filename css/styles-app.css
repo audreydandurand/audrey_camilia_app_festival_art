@@ -50,6 +50,7 @@ main{
     position:static;
     height: 120%;
     overflow-y: scroll;
+    padding-top: 70px;
     
 }
 
@@ -61,11 +62,16 @@ Footer {
     outline-style:groove;
     outline-width: 1.5px;
     position:relative;
-    bottom:0;
+    bottom:-55px;
 }
 
+#logomomo{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+
 footer a {
-    bottom: 0px;
     text-decoration: none;
     color: var(--bleu)
 }
@@ -102,7 +108,6 @@ footer a {
 .sec2 {
     position: relative;
     overflow: hidden;
-    top:80px;
     display: flex;
     justify-content: center;
 }
@@ -123,9 +128,7 @@ footer a {
 }
 
 .sec1{
-    position: relative;
     width: 800px;
-    top: 70px;
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -134,16 +137,12 @@ footer a {
 }
 
 #titrevedette{
-    position: absolute;
-    margin-top: 20px;
-    margin-bottom: 200px;
+    margin-top: 20px;;
 }
 
 #section-artist-vedette{
-    padding-top: 100px;
     margin-right: auto;
     margin-left: auto;
-    right: 200px;
 }
 
 #carteAutre{
@@ -187,3 +186,108 @@ footer a {
 .plusInfo .card-text .card-title .date{
     font-family:lalezar;
 }
+
+
+
+/*----- art work -----*/
+
+#boutonreserver{
+    color: var(--bleu);
+    background-color: var(--mauve);
+}
+
+.retour{
+    color: var(--rose);
+    position: relative;
+    margin-left: 0.5px;  
+}
+
+.jaime{
+    background-color: var(--gris);
+    text-align: center;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+}
+
+#checkbox {
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+
+.bi-heart-fill {
+    top: 9px;
+    position: relative;
+}
+
+.bi-heart-fill {
+    color: var(--rose);
+}
+
+.jaime:has(#checkbox:checked) .bi-heart-fill  {
+    color: var(--bleu);
+}
+
+#navART{
+    background-size:100%;
+    background-image: url(../assets/images/Tobias_gremmler_symbiotic.png) ;
+    padding-bottom: 250px;
+    position: center;
+    background-repeat: no-repeat;
+}
+
+.en-savoir-plus {
+    background-color: var(--mauve);
+    color: var(--bleu)
+}
+
+.accordion{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#sectionart1{
+    position: relative;
+    padding-top: 240px;
+    padding-bottom: 20px;
+}
+
+#apropos{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--rose);
+    border-color: var(--bleu);
+    border-radius: 10px;
+    border-width: 2px;
+
+}
+
+#artisteIMG{
+    height: fit-content;
+}
+
+.swiper-filters .swiper-wrapper .swiper-slide {
+    width: auto;
+}
+
+.swiper-slide button {
+    background-color: var(--bs-dark);
+    color: var(--bs-white);
+    border-radius: 30px;
+}
+
+.swiper-featured-artworks, .swiper-slide {
+    height: 50vh;
+}
+
+.swiper-slide .card {
+    height: 100%;
+}
+
+
+
+
