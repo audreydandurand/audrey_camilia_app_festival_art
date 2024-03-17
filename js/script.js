@@ -24,7 +24,7 @@
   });
 
     var swiperOeuvre = new Swiper(".swiper-featured-artworks", {
-      slidesPerView: 3,
+      slidesPerView: 2.2,
       spaceBetween: 5,
       direction: 'horizontal',
     });
