@@ -35,6 +35,6 @@
   });
 
     var swiperOeuvre = new Swiper(".swiper-featured-artworks", {
-      slidesPerView: 'auto',
-      freeMode: true,
+      slidesPerView: 2,
+      spaceBetween: 30
     });
