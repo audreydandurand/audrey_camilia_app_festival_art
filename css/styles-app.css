@@ -270,22 +270,5 @@ footer a {
     height: fit-content;
 }
 
-.swiper-filters .swiper-wrapper .swiper-slide {
-    width: auto;
-}
-
-.swiper-slide button {
-    background-color: var(--bs-dark);
-    color: var(--bs-white);
-    border-radius: 30px;
-}
-
-.swiper-featured-artworks, .swiper-slide {
-    height: 50vh;
-}
-
-.swiper-slide .card {
-    height: 100%;
-}
 
 
