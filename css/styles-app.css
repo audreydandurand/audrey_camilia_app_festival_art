@@ -94,13 +94,17 @@ footer a {
     border-radius: 10px;
     border-width: 2px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 #listbutton:hover{
     background-color: var(--mauve);
     border-color: var(--mauve);
 }
+.swiper-slide {
+    width: auto !important;
+
+  }
 
 .sec2 {
     position: relative;

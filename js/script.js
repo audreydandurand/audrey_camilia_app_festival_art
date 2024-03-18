@@ -22,7 +22,12 @@
     slidesPerView: 3,
     spaceBetween: 5,
     direction: 'horizontal',
+    injectStyles: [`
+    .swiper-slide {
+      width: 100px
+    }
 
+  `],
   });
 
     var swiperOeuvre = new Swiper(".swiper-featured-artworks", {
