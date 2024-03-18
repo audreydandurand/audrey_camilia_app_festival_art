@@ -70,7 +70,6 @@
 
     <!--RECHERCHE-->
 
-
     <!--SECTION1-->
 
     <section class="row justify-content-center">
@@ -90,22 +89,34 @@
       <div class="container">
         <div class="row">
           <!-- Slider main container -->
-          <div class="swiper swiper-filters">
+          <div class="swiper-filters">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide"><button type="button" class="btn custom-btn" id="listbutton">Toutes</button>
+              <div class="swiper-slide col-12"><button type="button" class="btn custom-btn"
+                id="listbutton">Toutes</button>
+            </div>
+              
+              <div class="swiper-slide col-12">
+                <button type="button" class="btn custom-btn" id="listbutton">Installation interactive</button>
               </div>
-              <div class="swiper-slide"><button type="button" class="btn custom-btn" id="listbutton">Installation
-                  interactive</button></div>
-              <div class="swiper-slide"><button type="button" class="btn custom-btn" id="listbutton">Concert</button>
+
+              <div class="swiper-slide col-2">
+                <button type="button" class="btn custom-btn" id="listbutton">Concert</button>
               </div>
-              <div class="swiper-slide"><button type="button" class="btn custom-btn"
-                  id="listbutton">Performance</button></div>
-              <div class="swiper-slide"><button type="button" class="btn custom-btn" id="listbutton">AR/VR</button>
+              
+              <div class="swiper-slide col-12"><button type="button" class="btn custom-btn"
+                  id="listbutton">Performance</button>
               </div>
-              <div class="swiper-slide"><button type="button" class="btn custom-btn"
-                  id="listbutton">Projections/Immersions</button></div>
+
+              <div class="swiper-slide col-12">
+                <button type="button" class="btn custom-btn" id="listbutton">AR/VR</button>
+              </div>
+
+              <div class="swiper-slide col-12"><button type="button" class="btn custom-btn"
+                  id="listbutton">Projections/Immersions</button>
+              </div>
+
             </div>
           </div>
         </div>
@@ -123,15 +134,15 @@
             <!--CARTE1-->
             <div class="swiper-slide">
               <div id="carteVedette">
-                <a href="artwork.html" class="card mb-3">
+                <a href="artwork.html" class="card col-12 mb-3">
                   <img src="../assets/images/Tobias_gremmler_symbiotic.png" class="card-img-top" />
                   <div class="card-body">
                     <h5 class="card-title">Symbiotic</h5>
                     <p class="card-text">Par Tobias Gremmier</p>
                     <div class="d-flex justify-content-between">
-                      <span class="date" class="text-start">
-                        <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
-                      <span class="plusInfo" class="text-end">
+                      <span id="date" class="text-start">
+                        <h7 href="#"> 25/01/2024 <i class="bi bi-calendar2-week-fill pe-1"></i></h7>
+                      <span id="plusInfo" class="text-end">
                         <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
                     </div>
                   </div>
@@ -147,9 +158,9 @@
                     <h5 class="card-title">Birds in the Wind</h5>
                     <p class="card-text">Par Teamlab</p>
                     <div class="d-flex justify-content-between">
-                      <span class="date" class="text-start">
-                        <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
-                      <span class="plusInfo" class="text-end">
+                      <span id="date" class="text-start">
+                        <h7 href="#"> 25/01/2024 <i class="bi bi-calendar2-week-fill pe-1"></i></h7>
+                      <span id="plusInfo" class="text-end">
                         <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
                     </div>
                   </div>
@@ -160,14 +171,14 @@
             <div class="swiper-slide">
               <div id="carteVedette">
                 <a class="card mb-3">
-                  <img src="../assets/images/universal_everything_transfiguration.png" class="card-img-top" />
+                  <img src="../assets/images/teamlab_resonatingMicrocosms.png" class="card-img-top" />
                   <div class="card-body">
-                    <h5 class="card-title">Transfiguration</h5>
-                    <p class="card-text">Par Universal Everything</p>
+                    <h5 class="card-title">Resonating Microcosms</h5>
+                    <p class="card-text">Par Teamlab</p>
                     <div class="d-flex justify-content-between">
-                      <span class="date" class="text-start">
-                        <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
-                      <span class="plusInfo" class="text-end">
+                      <span id="date" class="text-start">
+                        <h7 href="#"> 25/01/2024 <i class="bi bi-calendar2-week-fill pe-1"></i></h7>
+                      <span id="plusInfo" class="text-end">
                         <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
                     </div>
                   </div>
@@ -178,14 +189,14 @@
             <div class="swiper-slide">
               <div id="carteVedette">
                 <a href="artwork.html" class="card mb-3">
-                  <img src="../assets/images/Tobias_gremmler_symbiotic.png" class="card-img-top" />
+                  <img src="../assets/images/uneversaleverything_age_light.png" class="card-img-top" />
                   <div class="card-body">
-                    <h5 class="card-title">Symbiotic</h5>
-                    <p class="card-text">Par Tobias Gremmier</p>
+                    <h5 class="card-title">Age of light</h5>
+                    <p class="card-text">Par Universal Everything</p>
                     <div class="d-flex justify-content-between">
-                      <span class="date" class="text-start">
-                        <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
-                      <span class="plusInfo" class="text-end">
+                      <span id="date" class="text-start">
+                        <h7 href="#"> 25/01/2024 <i class="bi bi-calendar2-week-fill pe-1"></i></h7>
+                      <span id="plusInfo" class="text-end">
                         <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
                     </div>
                   </div>
@@ -196,14 +207,14 @@
             <div class="swiper-slide">
               <div id="carteVedette">
                 <a class="card mb-3">
-                  <img src="../assets/images/teamlab_birdsInWind.png" class="card-img-top" />
+                  <img src="../assets/images/refik_anadol.png" class="card-img-top" />
                   <div class="card-body">
-                    <h5 class="card-title">Birds in the Wind</h5>
-                    <p class="card-text">Par Teamlab</p>
+                    <h5 class="card-title">Casa Batllo</h5>
+                    <p class="card-text">Par Refik Anadol</p>
                     <div class="d-flex justify-content-between">
-                      <span class="date" class="text-start">
-                        <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
-                      <span class="plusInfo" class="text-end">
+                      <span id="date" class="text-start">
+                        <h7 href="#"> 25/01/2024 <i class="bi bi-calendar2-week-fill pe-1"></i></h7>
+                      <span id="plusInfo" class="text-end">
                         <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
                     </div>
                   </div>
@@ -214,21 +225,21 @@
             <div class="swiper-slide">
               <div id="carteVedette">
                 <a class="card mb-3">
-                  <img src="../assets/images/universal_everything_transfiguration.png" class="card-img-top" />
+                  <img src="../assets/images/teamlab_birdsInWind.png" class="card-img-top" />
                   <div class="card-body">
-                    <h5 class="card-title">Transfiguration</h5>
-                    <p class="card-text">Par Universal Everything</p>
+                    <h5 class="card-title">Birds in the Wind</h5>
+                    <p class="card-text">Par Teamlab</p>
                     <div class="d-flex justify-content-between">
-                      <span class="date" class="text-start">
-                        <i class="bi bi-calendar2-week-fill pe-1"></i>25/01/2024</span>
-                      <span class="plusInfo" class="text-end">
+                      <span id="date" class="text-start">
+                        <h7 href="#"> 25/01/2024 <i class="bi bi-calendar2-week-fill pe-1"></i></h7>
+                      <span id="plusInfo" class="text-end">
                         <h7 href="#"> Plus d'info <i class="bi bi-chevron-right"></i></h7>
                     </div>
                   </div>
                 </a>
               </div>
             </div>
-          </div>
+            
       </section>
     </div>
 

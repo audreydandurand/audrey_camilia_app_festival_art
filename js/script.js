@@ -19,8 +19,10 @@
   });
 
   var swiperList = new Swiper(".swiper-filters", {
-    slidesPerView: 4,
-    spaceBetween: 5
+    slidesPerView: 3,
+    spaceBetween: 5,
+    direction: 'horizontal',
+
   });
 
     var swiperOeuvre = new Swiper(".swiper-featured-artworks", {
