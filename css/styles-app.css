@@ -86,7 +86,7 @@ footer a {
     list-style: none;
 }
 
-#listbutton{
+.listbutton{
     font-family: kanit;
     font-weight: bolder;
     font-size: 15px ;
@@ -97,7 +97,7 @@ footer a {
     justify-content: center;
 }
 
-#listbutton:hover{
+.listbutton:hover{
     background-color: var(--mauve);
     border-color: var(--mauve);
 }
